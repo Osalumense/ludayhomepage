@@ -2344,6 +2344,10 @@ section {
   color: #012970;
 }
 
+.footer .footer-contact {
+  color: #012970;
+}
+
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
@@ -2365,7 +2369,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #d0d4fc;
+  color: rgba(1, 41, 112, 0.5);
   font-size: 12px;
   line-height: 0;
 }
