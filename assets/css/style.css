@@ -56,9 +56,7 @@ section {
 
 @media (max-width: 768px) {
   .section-header p {
-    font-size: 28px;
-    line-height: 22px;
-    font-weight: 500;
+    font-size: 24px;
   }
 }
 
@@ -574,7 +572,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #D1DDFE;
+  background-color: #BDCFFD;
   padding: 44px;
   border-radius: 8px;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.15);
@@ -645,6 +643,7 @@ section {
 
 .values .box img {
   padding: 30px 50px;
+  border-radius: 12%;
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -666,6 +665,7 @@ section {
 }
 
 .values .box:hover img {
+  opacity: 0.7;
   transform: scale(0.9);
 }
 
@@ -793,7 +793,6 @@ section {
 .services {
   position: relative;
   background-color: #BDCFFD;
-  opacity: 0.7;
 }
 
 .services p {
@@ -879,135 +878,6 @@ section {
 
 /* Services section end */
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 40px 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.pricing h3 {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.pricing .price {
-  font-size: 36px;
-  color: #444444;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .price span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing img {
-  padding: 30px 40px;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.pricing ul li {
-  padding-bottom: 10px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: #4154f1;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid #4154f1;
-}
-
-.pricing .btn-buy:hover {
-  background: #4154f1;
-  color: #fff;
-}
-
-.pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #4154f1;
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-.faq .accordion-collapse {
-  border: 0;
-}
-
-.faq .accordion-button {
-  padding: 15px 15px 20px 0;
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  color: #444444;
-  text-align: left;
-}
-
-.faq .accordion-button:focus {
-  box-shadow: none;
-}
-
-.faq .accordion-button:not(.collapsed) {
-  background: none;
-  color: #4154f1;
-  border-bottom: 0;
-}
-
-.faq .accordion-body {
-  padding: 0 0 25px 0;
-  border: 0;
-}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1124,7 +994,7 @@ section {
   color: #012970;
   font-weight: 600;
   font-size: 14px;
-  text-transform: uppercase;
+  padding: 8px 8px;
   padding: 0;
   margin: 0;
 }
