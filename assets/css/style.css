@@ -529,6 +529,10 @@ section {
   transform: translateX(5px);
 }
 
+.brnodisplay {
+  display: none;
+}
+
 .hero .hero-img {
   text-align: right;
 }
@@ -551,6 +555,10 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+  .brnodisplay {
+    display: block;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -1320,7 +1328,7 @@ section {
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 7px;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
@@ -1332,10 +1340,12 @@ section {
 
 .contact .php-email-form input {
   padding: 10px 15px;
+  border-radius: 7px;
 }
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  border-radius: 7px;
 }
 
 .contact .php-email-form button[type="submit"] {
@@ -1344,7 +1354,7 @@ section {
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1375,13 +1385,15 @@ section {
 --------------------------------------------------------------*/
 
 .footer {
-  background: #f6f9ff;
+  background: #D1DDFE;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background:rgba(255, 255, 255, 0.65) url(../img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -1402,7 +1414,7 @@ section {
   margin-bottom: 15px;
   background: #FFFFFF;
   color: #013289;
-  border-top: 4px solid #4154f1;
+  border-top: 5px solid #013289;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1494,23 +1506,18 @@ section {
   color: #013289;
 }
 
-.footer .footer-top form {
-  border: solid 2px;
-  border-radius: 7px;
-  background-color: #012970;
-}
-
 .footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
+  border-radius: 7px;
   padding: 6px 10px;
   position: relative;
-  border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
+  
   width: calc(100% - 110px);
 }
 
@@ -1526,7 +1533,7 @@ section {
   background: #4B51E5;
   color: #fff;
   transition: 0.3s;
-  border-radius: 4;
+  border-radius: 0px 7px 7px 0px;
 }
 
 .footer .copyright {
